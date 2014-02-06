@@ -1,0 +1,32 @@
+[
+  {
+    "Date":"2012-1-16T10:49:30Z",
+    "TotalComputers": 200,
+    "NbComputerOn": 12
+  },
+  {
+    "Date":"2012-2-01T10:49:30Z",
+    "TotalComputers": 200,
+    "NbComputerOn": 150
+  },
+  {
+    "Date":"2012-3-01T10:49:30Z",
+    "TotalComputers": 250,
+    "NbComputerOn": 130
+  },
+  {
+    "Date":"2012-4-02T10:49:30Z",
+    "TotalComputers": 250,
+    "NbComputerOn": 120
+  },
+  {
+    "Date":"2012-5-02T10:49:30Z",
+    "TotalComputers": 250,
+    "NbComputerOn": 110
+  },
+  {
+    "Date":"2012-6-04T10:49:30Z",
+    "TotalComputers": 250,
+    "NbComputerOn": 50
+  }
+]

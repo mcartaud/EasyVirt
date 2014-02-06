@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+
+/* Surcharge de Bootstrap */
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.navbar {
+	background-color: rgba(8, 82, 0, 0.71) !important;
+}
+
+.navbar-brand {
+	color: #FFF !important;
+}
+
+.navbar-nav>li>a {
+	color: #FFF !important;
+}
+
+.navbar-nav>.active>a,.navbar-nav>.active>a:hover,.navbar-nav>.active>a:focus
+	{
+	background-color: rgb(117, 232, 104) !important;
+}
+
+
+.page{
+	margin-top: 50px;
+}
+
+/* Input de la page config */
+#inputFrequency {
+	width: 50%;
+	float: left;
+}
+
+.btnMargin {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* Surchage de la page détails */
+.tdDetail-1{
+	background: rgb(150, 255, 0);
+}
+
+.tdDetail-2{
+	background: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+
+
+/* Configuration des couleurs pour le calendrier de d3 */
+.day {
+	fill: #fff;
+	stroke: #ccc;
+}
+
+.month {
+	fill: none;
+	stroke: #000;
+	stroke-width: 2px;
+}
+
+.RdYlGn .q0-11, .q1-11, .q2-11, .q3-11, .q4-11, .q5-11, .q6-11, .q7-11, .q8-11, .q9-11 {
+	fill: rgb(255, 0, 0);
+}
+
+.RdYlGn .q10-11, .q11-11, .q12-11, .q13-11, .q14-11, .q15-11, .q16-11, .q17-11, .q18-11, .q19-11 {
+	fill: rgb(255, 40, 0);
+}
+
+.RdYlGn .q20-11, .q21-11, .q22-11, .q23-11, .q24-11, .q25-11, .q26-11, .q27-11, .q28-11, .q29-11 {
+	fill: rgb(255, 72, 0);
+}
+
+.RdYlGn .q30-11, .q31-11, .q32-11, .q33-11, .q34-11, .q35-11, .q36-11, .q37-11, .q38-11, .q39-11 {
+	fill: rgb(255, 108, 0);
+}
+
+.RdYlGn .q40-11, .q41-11, .q42-11, .q43-11, .q44-11, .q45-11, .q46-11, .q47-11, .q48-11, .q49-11 {
+	fill: rgb(255, 144, 0);
+}
+
+.RdYlGn .q50-11, .q51-11, .q52-11, .q53-11, .q54-11, .q55-11, .q56-11, .q57-11, .q58-11, .q59-11 {
+	fill: rgb(255, 198, 0);
+}
+
+.RdYlGn  .q60-11, .q61-11, .q62-11, .q63-11, .q64-11, .q65-11, .q66-11, .q67-11, .q68-11, .q69-11 {
+	fill: rgb(255, 240, 0);
+}
+
+.RdYlGn  .q70-11, .q71-11, .q72-11, .q73-11, .q74-11, .q75-11, .q76-11, .q77-11, .q78-11, .q79-11, {
+	fill: rgb(222, 255, 0);
+}
+
+.RdYlGn .q80-11, .q81-11, .q82-11, .q83-11, .q84-11, .q85-11, .q86-11, .q87-11, .q88-11, .q89-11 {
+	fill: rgb(186, 255, 0) !important;
+}
+
+.RdYlGn .q90-11, .q91-11, .q92-11, .q93-11, .q94-11, .q95-11, .q96-11, .q97-11, .q98-11, .q99-11 {
+	fill: rgb(150, 255, 0);
+}
+
+/* De 1% à 5% */
+
+.RdYlGn .q96-11, .q97-11, .q98-11, .q99-11 {
+	fill: rgb(100, 255, 0);
+}
+/* De 0 à 1 % */
+
+.RdYlGn .q100-11 {
+	fill: rgb(255, 255, 255);
+}
+
