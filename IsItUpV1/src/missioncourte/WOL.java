@@ -1,3 +1,4 @@
+package missioncourte;
 //Code d'envoi du magic packet en connaissant l'adresse IP et l'adresse MAC de la cible.
 
 import java.net.DatagramPacket;

@@ -1,3 +1,4 @@
+package missioncourte;
 
 public class Ordinateur {
 	private String IP="";

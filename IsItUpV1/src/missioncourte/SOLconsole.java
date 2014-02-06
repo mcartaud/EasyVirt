@@ -1,3 +1,4 @@
+package missioncourte;
 //Programma permettant d'automatiser le SOL via console (net use + shutdown)
 
 public class SOLconsole {
